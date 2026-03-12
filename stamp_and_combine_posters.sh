@@ -16,6 +16,6 @@ for f in */File\ submissions/*.pdf; do
 done
 
 
-
-echo pdftk stamped_*.pdf cat output combined_posters.pdf
+echo brew install pdftk-java
+echo pdftk ./stamped/*.pdf cat output combined_posters.pdf
 
