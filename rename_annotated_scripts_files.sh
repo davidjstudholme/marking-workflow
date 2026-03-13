@@ -4,3 +4,10 @@ for f in *.*; do
     mv -i -- "$f" "$new"
   fi
 done
+
+
+
+zip documents.zip *.pdf *.pptx
+
+
+
